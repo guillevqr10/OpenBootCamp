@@ -1,0 +1,33 @@
+echo "# OpenBootCamp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/guillevqr10/OpenBootCamp.git
+git push -u origin main
+
+void main()
+{
+  int valor;
+  valor = suma(10,20,30);
+  System.out.println(valor);
+  
+  coche miCoche = new coche();
+  System.out.println(miCoche.npuertas);
+ }
+
+
+
+int suma(int a,int b, int c){
+int resultado = a+b+c;
+return resultado;
+}
+
+
+class coche{
+  int npuertas;
+
+  void masPuertas(){
+    this.npuertas++;
+  }
+}
